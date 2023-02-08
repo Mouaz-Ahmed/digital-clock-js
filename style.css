@@ -1,0 +1,135 @@
+body {
+    background-color: rgb(23, 23, 23);
+}
+.main_container{
+    display: flex;
+    justify-content: center;
+}
+.container {
+    margin-top: 100px;
+    background-color: black;
+    border: 2px solid white;
+    box-shadow: 0px 2px 11px 1px white;
+    border-radius: 5px;
+    width: 580px;
+    height: 380px;
+}
+
+.para{
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+}
+#Time {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 50px;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    margin-left: 12px;
+    border: 2px solid white;
+    border-radius: 3px;
+    font-size: 20px;
+    box-shadow: 0px 2px 6px 1px white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    background-color: black;
+    color: white;
+    width: 170px;
+    height: 50px;
+}
+
+.btn:hover {
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.btn:disabled {
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: white;
+
+    color: black;
+}
+
+.h_1{
+    margin-top:45px;
+    display: flex;
+    justify-content: center;
+}
+#h1 {
+    border-radius: 2px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    text-shadow: 2px 3px rgb(72, 70, 70);
+}
+
+
+.by-mouaz {
+    margin-top: -90px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+@media (max-width:1075px){
+    .container{
+        margin-top:70px;
+    }
+}
+@media (max-width:768px){
+    .container {
+        margin-top: 60px;
+        background-color: black;
+        border: 2px solid white;
+        box-shadow: 0px 2px 11px 1px white;
+        border-radius: 5px;
+        width: 500px;
+        height: 380px;
+    }
+    .by-mouaz {
+        margin-top: -70px;
+    }
+
+} 
+@media (max-width:425px){
+    .container{
+    border-radius: 45px;
+    margin-top: 70px;
+    width: 300px;
+    height: 380px;
+    }
+    #h1 {
+        font-size: 35px;
+    }
+    #Time {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+
+    .btn {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin: 10px 7px;
+        /* border: 2px solid white;
+        border-radius: 3px;
+        font-size: 20px;
+        box-shadow: 0px 2px 5px 1px white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        background-color: black;
+        color: white;
+        width: 120px;
+        height: 40px; */
+    }
+}
